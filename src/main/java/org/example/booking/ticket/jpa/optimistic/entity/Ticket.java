@@ -36,9 +36,9 @@ public class Ticket extends VersionedEntity {
     @Column(nullable = false, name = "start_time")
     private LocalDateTime startTime;
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(referencedColumnName = "owner_id")
+    @JoinColumn(name = "owner_id")
     private User owner;
     @ManyToOne
-    @JoinColumn(referencedColumnName = "ticket_type_id")
+    @JoinColumn(name = "ticket_type_id")
     private TicketType ticketType;
 }

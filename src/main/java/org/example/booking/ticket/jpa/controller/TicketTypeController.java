@@ -1,8 +1,8 @@
 package org.example.booking.ticket.jpa.controller;
 
-import org.example.booking.ticket.model.request.TicketTypeCreateRequest;
-import org.example.booking.ticket.model.response.TicketTypeResponse;
-import org.example.booking.ticket.service.TicketTypeService;
+import org.example.booking.ticket.jpa.model.request.TicketTypeCreateRequest;
+import org.example.booking.ticket.jpa.model.response.TicketTypeResponse;
+import org.example.booking.ticket.jpa.service.TicketTypeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

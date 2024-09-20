@@ -34,6 +34,6 @@ public class TicketType extends VersionedEntity {
     private String event;
     @PositiveOrZero
     private BigDecimal price;
-    @OneToMany(mappedBy = "ticktTypeId")
+    @OneToMany(mappedBy = "ticketType")
     private Set<Ticket> tickets;
 }
